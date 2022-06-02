@@ -130,7 +130,7 @@ button {
   margin: 0 10px;
 }
 
-.item > label {
+.item > .task--label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
@@ -141,13 +141,13 @@ button {
   width: 226px;
 }
 
-.delete img {
+.delete-img {
   height: 2em;
   transform: rotatez(45deg);
   transition: transform 200ms ease-in;
 }
 
-.delete img:hover {
+.delete-img:hover {
   transform: rotatez(0);
 }
 
