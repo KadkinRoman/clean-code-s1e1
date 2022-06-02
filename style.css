@@ -107,7 +107,7 @@ label[for="new-task"] {
   margin: 0 0 20px;
 }
 
-#new-task {
+.new-task {
   width: 318px;
 }
 
@@ -152,7 +152,7 @@ li {
 }
 
 /* completed */
-ul#completed-tasks label {
+.completed-tasks .task {
   text-decoration: line-through;
   color: #888;
 }
